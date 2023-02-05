@@ -53,13 +53,13 @@ const Home = () => {
                     <td>
                       <div>
                         <Link
-                          to={"/view-book"}
+                          to={`/view-book/${book.id}`}
                           className="btn btn-primary mx-2"
                         >
                           View
                         </Link>
                         <Link
-                          to={"/edit-book"}
+                          to={`/edit-book/${book.id}`}
                           className="btn btn-outline-light mx-2"
                         >
                           Edit
