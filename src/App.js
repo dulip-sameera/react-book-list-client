@@ -9,7 +9,7 @@ import NotFound from "./pages/NotFound";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-dark bg-gradient">
       <BrowserRouter>
         <NavBar />
         <Routes>
