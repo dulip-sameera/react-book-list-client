@@ -8,7 +8,7 @@ const NavBar = () => {
         <Link to={"/"} className="navbar-brand text-light">
           My Book List
         </Link>
-        <Link to={"/new-book"} className="btn btn-outline-light">
+        <Link to={"/add-book"} className="btn btn-outline-light">
           Add Book
         </Link>
       </div>
