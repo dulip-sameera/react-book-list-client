@@ -15,8 +15,8 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/add-book" element={<AddBook />} />
-          <Route exact path="/View-book" element={<ViewBook />} />
-          <Route exact path="/edit-book" element={<EditBook />} />
+          <Route exact path="/View-book/:{id}" element={<ViewBook />} />
+          <Route exact path="/edit-book/:{id}" element={<EditBook />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
